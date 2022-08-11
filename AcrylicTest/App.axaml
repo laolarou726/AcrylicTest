@@ -1,7 +1,8 @@
-<Application xmlns="https://github.com/avaloniaui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             x:Class="AcrylicTest.App">
-    <Application.Styles>
-        <FluentTheme Mode="Light"/>
-    </Application.Styles>
-</Application>
+<avalonia:Application xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:avalonia="https://github.com/avaloniaui"
+                      xmlns:default="clr-namespace:Avalonia.Themes.Default;assembly=Avalonia.Themes.Default"
+                      x:Class="AcrylicTest.App">
+    <avalonia:Application.Styles>
+		<default:SimpleTheme/>
+    </avalonia:Application.Styles>
+</avalonia:Application>

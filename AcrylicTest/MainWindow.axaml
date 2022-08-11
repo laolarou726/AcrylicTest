@@ -17,5 +17,10 @@
                     MaterialOpacity="0.65" />
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
+		<Viewbox>
+			<TextBlock Foreground="White"
+                       FontFamily="/MinecraftTen-VGORe.ttf#Minecraft Ten"
+                       Text="TEST 12345"/>
+		</Viewbox>
     </Panel>
 </Window>
